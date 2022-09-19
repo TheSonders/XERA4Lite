@@ -68,7 +68,6 @@ module X4LSPI(
 			end
 			default:begin
 				STM<=STM+1;
-				nWAIT<=0;
 				if (STM[0])begin
 					SPI_CLK<=0;
 					SPI_MOSI<=Buffer[7];					
